@@ -1,0 +1,57 @@
+.header-juegos{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: url('../../../assets/imagenes/juegos.jpg');
+    
+}
+.titulo{
+    position: relative;
+    left: 40%;
+}
+
+.titulo h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: orange;
+    border: solid green;
+    border-radius: 40px;
+    background-color: black;
+}
+
+.registro{
+    position: relative;
+    padding-top: 40px;
+    
+}
+
+.registro  button{
+    margin-bottom: 5px;
+    position: relative;
+}
+
+
+.hero-text {
+text-align: center;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #3E06B0;
+}
+
+.hero-text a {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 10px 25px;
+color: black;
+background-color: #ddd;
+text-align: center;
+cursor: pointer;
+}
+
+.hero-text a:hover {
+background-color: #555;
+color: white;
+}
