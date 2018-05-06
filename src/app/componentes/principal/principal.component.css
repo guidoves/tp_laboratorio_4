@@ -1,19 +1,26 @@
 .juegos{
-    
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+      
     margin-bottom: 10px;
+    border: solid red;
 }
+
+.juegos img{
+    width: 80%;
+    height: auto;
+    margin-left: 30px;
+}
+
 
 .card{
     width: 30%;
+    height: 30%;
+    display: inline-block;
 }
 
 .principal{
     background-color: beige;
-}
 
+}
 .titulo{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -25,12 +32,3 @@
     font-size: 20px;
     text-align: center;
 }
-
-.card-img-top{
-    height: 45%;
-}
-
-.card-title{
-    
-}
-

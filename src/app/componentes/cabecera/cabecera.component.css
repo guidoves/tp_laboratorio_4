@@ -5,10 +5,6 @@
     background: url('../../../assets/imagenes/juegos.jpg');
     
 }
-.titulo{
-    position: relative;
-    left: 40%;
-}
 
 .titulo h1{
     font-family: 'Courier New', Courier, monospace;
